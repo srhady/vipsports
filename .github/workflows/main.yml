@@ -1,0 +1,48 @@
+Name: Auto Sports Poster Studio
+
+on:
+  schedule:
+    - cron: '*/15 * * * *' # প্রতি ১৫ মিনিটে অটো চলবে
+  workflow_dispatch: # ম্যানুয়ালি রান করার অপশন
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 Pillow
+
+    - name: Run CricHD Poster Script
+      run: python scripts/poster_maker.py
+      continue-on-error: true
+
+    - name: Run Footystream Poster Script
+      run: python scripts/Footystream.py
+      continue-on-error: true
+
+    - name: Run VIPBOX Poster Studio Script
+      run: python scripts/vipbox_studio.py
+      continue-on-error: true
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # আপনার রিকোয়ারমেন্ট অনুযায়ী posters/ ফোল্ডারে সব ফটো সেভ হবে
+        git add posters/ footy_posters/
+        
+        # যদি কোনো পরিবর্তন থাকে তবেই কমিট করবে
+        git diff --quiet && git diff --staged --quiet || git commit -m "🎨 Auto-updated match posters (Cricket, Footy & VIPBOX)"
+        git push
