@@ -7,8 +7,8 @@ import os
 import time
 from urllib.parse import urljoin
 
-# আপনার রিকোয়ারমেন্ট অনুযায়ী ফোল্ডার পাথ (মেইন ডিরেক্টরি থেকে posters ফোল্ডার)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# গিটহাবের জন্য পাথ সেটআপ
+BASE_DIR = os.getcwd()
 OUTPUT_DIR = os.path.join(BASE_DIR, "posters")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -32,64 +32,76 @@ def create_poster(match_name, logo_urls):
     try:
         logos = []
         for url in logo_urls:
-            res = s.get(url, timeout=10)
+            print(f"      [~] Downloading logo: {url}")
+            res = s.get(url, timeout=15)
             if res.status_code == 200:
                 logos.append(Image.open(BytesIO(res.content)).convert('RGBA'))
         
-        if len(logos) < 2: return
+        if len(logos) < 2:
+            print("      [!] Not enough logos downloaded.")
+            return False
 
         canvas = Image.new('RGBA', (1080, 810), (0, 0, 0, 0))
         img1 = auto_crop_and_resize(logos[0], 480, 600)
         img2 = auto_crop_and_resize(logos[1], 480, 600)
         
-        # পজিশনিং
         canvas.paste(img1, (270 - (img1.width // 2), 405 - (img1.height // 2)), img1)
         canvas.paste(img2, (810 - (img2.width // 2), 405 - (img2.height // 2)), img2)
         
         canvas.save(local_path, "PNG", optimize=True)
-        print(f"    ✅ Poster Saved: {local_path}")
+        print(f"      ✅ Success! Saved to: {local_path}")
+        return True
     except Exception as e:
-        print(f"    [!] Error: {e}")
+        print(f"      [!] Error making poster: {e}")
+        return False
 
 def main():
-    print(f"[*] Scanning VIPBOX for Live Match Logos...")
+    print(f"[*] Scanning VIPBOX for matches...")
     try:
-        res = s.get("https://vipboxi.net/live", timeout=15)
+        res = s.get("https://vipboxi.net/live", timeout=20)
         soup = BeautifulSoup(res.text, 'html.parser')
         headers = soup.find_all('h3')
         
-        current_unix = int(time.time())
+        print(f"[*] Found {len(headers)} matches total.")
         active_posters = []
 
         for h in headers:
-            time_span = h.find('span', class_=lambda x: x and x.startswith('dt '))
-            if not time_span: continue
+            name_span = h.find_all('span', id='notbold')
+            if len(name_span) < 2: continue
             
-            # শুধুমাত্র লাইভ ম্যাচ ফিল্টার
-            if current_unix >= (int(time_span['class'][1]) - 1800):
-                name_span = h.find_all('span', id='notbold')
-                match_name = name_span[1].text.strip() if len(name_span) > 1 else "Unknown"
+            match_name = name_span[1].text.strip()
+            print(f"\n[>] Checking: {match_name}")
+            
+            links_div = h.find_next_sibling('div')
+            if links_div:
+                # যে কোনো অ্যাড লিংক খুঁজে বের করা
+                ad_a = None
+                for a in links_div.find_all('a'):
+                    href = a.get('href', '')
+                    if "lightbrights" in href or "bestgugo" in href or "reffpa" in href:
+                        ad_a = a
+                        break
                 
-                links_div = h.find_next_sibling('div')
-                if links_div:
-                    for a in links_div.find_all('a'):
-                        if any(x in a['href'] for x in ["lightbrights1", "bestgugo1"]):
-                            print(f"\n🎯 Processing: {match_name}")
-                            # রিডাইরেক্ট পেজ থেকে লোগো খোঁজা
-                            try:
-                                ad_res = s.get(a['href'], allow_redirects=True, timeout=5)
-                                ad_soup = BeautifulSoup(ad_res.text, 'html.parser')
-                                logo_urls = [urljoin(ad_res.url, i['src']) for i in ad_soup.select('.pilot img')]
-                                if len(logo_urls) >= 2:
-                                    create_poster(match_name, logo_urls)
-                                    active_posters.append(f"{sanitize_filename(match_name)}.png")
-                                    break
-                            except: continue
+                if ad_a:
+                    ad_url = ad_a['href']
+                    print(f"    [*] Found Ad link, following: {ad_url}")
+                    try:
+                        ad_res = s.get(ad_url, allow_redirects=True, timeout=15)
+                        ad_soup = BeautifulSoup(ad_res.text, 'html.parser')
+                        # লোগো ইউআরএল কালেক্ট করা
+                        logo_urls = [urljoin(ad_res.url, i['src']) for i in ad_soup.select('.pilot img')]
+                        
+                        if len(logo_urls) >= 2:
+                            if create_poster(match_name, logo_urls):
+                                active_posters.append(f"{sanitize_filename(match_name)}.png")
+                        else:
+                            print("    [-] Could not find team logos on the redirect page.")
+                    except Exception as e:
+                        print(f"    [!] Failed to reach redirect page: {e}")
+                else:
+                    print("    [-] No usable ad/logo link found for this match.")
 
-        # পুরোনো বা শেষ হয়ে যাওয়া ম্যাচের পোস্টার ডিলিট করা
-        for f in os.listdir(OUTPUT_DIR):
-            if f.endswith('.png') and f not in active_posters:
-                os.remove(os.path.join(OUTPUT_DIR, f))
+        print(f"\n[*] All done. Total new posters created: {len(active_posters)}")
                 
     except Exception as e:
         print(f"Critical Error: {e}")
