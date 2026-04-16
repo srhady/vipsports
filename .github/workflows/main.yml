@@ -23,22 +23,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4 Pillow
 
-    - name: Run CricHD Poster Script
-      run: python scripts/poster_maker.py
-      continue-on-error: true
-
-    - name: Run Footystream Poster Script
-      run: python scripts/Footystream.py
-      continue-on-error: true
-
     - name: Run VIPBOX Poster Studio Script
       run: python scripts/vipbox_studio.py
-      continue-on-error: true
 
     - name: Commit and Push Changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add posters/ footy_posters/
-        git diff --quiet && git diff --staged --quiet || git commit -m "🎨 Auto-updated match posters (Cricket, Footy & VIPBOX)"
+        git add posters/
+        git diff --quiet && git diff --staged --quiet || git commit -m "🎨 Auto-updated VIPBOX match posters"
         git push
