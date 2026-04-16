@@ -5,12 +5,11 @@ from io import BytesIO
 import re
 import os
 import time
-from datetime import datetime, timezone, timedelta
-from urllib.parse import urljoin, quote
+from urllib.parse import urljoin
 
-# কনফিগারেশন
-OUTPUT_DIR = "posters"
-PLAYLIST_FILE = "playlist.m3u"
+# আপনার রিকোয়ারমেন্ট অনুযায়ী ফোল্ডার পাথ (মেইন ডিরেক্টরি থেকে posters ফোল্ডার)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUTPUT_DIR = os.path.join(BASE_DIR, "posters")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 s = requests.Session()
@@ -37,101 +36,63 @@ def create_poster(match_name, logo_urls):
             if res.status_code == 200:
                 logos.append(Image.open(BytesIO(res.content)).convert('RGBA'))
         
-        if len(logos) < 2: return False
+        if len(logos) < 2: return
 
         canvas = Image.new('RGBA', (1080, 810), (0, 0, 0, 0))
         img1 = auto_crop_and_resize(logos[0], 480, 600)
         img2 = auto_crop_and_resize(logos[1], 480, 600)
         
+        # পজিশনিং
         canvas.paste(img1, (270 - (img1.width // 2), 405 - (img1.height // 2)), img1)
         canvas.paste(img2, (810 - (img2.width // 2), 405 - (img2.height // 2)), img2)
         
         canvas.save(local_path, "PNG", optimize=True)
-        return True
-    except:
-        return False
-
-def extract_m3u8(vipbox_url):
-    try:
-        res1 = s.get(vipbox_url, timeout=10).text
-        iframe = re.search(r"src=['\"](https?://dungatv[^'\"]+)['\"]", res1, re.IGNORECASE)
-        if not iframe: return None
-        
-        res2 = s.get(iframe.group(1), headers={'Referer': vipbox_url}, timeout=10).text
-        js = re.search(r"src=['\"](https?://aquaaqua\.top[^'\"]+)['\"]", res2, re.IGNORECASE)
-        if not js: return None
-        
-        res3 = s.get(js.group(1), headers={'Referer': iframe.group(1)}, timeout=10).text
-        player = re.search(r'src=["\'](https?://[^"\']+page\.php[^"\']+)["\']', res3, re.IGNORECASE)
-        if not player: return None
-        
-        res4 = s.get(player.group(1), headers={'Referer': iframe.group(1)}, timeout=10).text
-        m3u8 = re.search(r'source:\s*["\']([^"\']+\.m3u8)["\']', res4, re.IGNORECASE)
-        return m3u8.group(1) if m3u8 else None
-    except:
-        return None
+        print(f"    ✅ Poster Saved: {local_path}")
+    except Exception as e:
+        print(f"    [!] Error: {e}")
 
 def main():
-    bd_tz = timezone(timedelta(hours=6))
-    last_update = datetime.now(bd_tz).strftime("%I:%M %p %d-%m-%Y")
-    
-    m3u_content = f'#EXTM3U\n#name: VIPBOX Auto Poster Playlist\n#owner: Md Sohanur Rahman Hady\n#update: {last_update}\n\n'
-    
-    active_posters = []
-    
-    print("[*] Scraping VIPBOX Live...")
-    res = s.get("https://vipboxi.net/live", timeout=15)
-    soup = BeautifulSoup(res.text, 'html.parser')
-    current_unix = int(time.time())
-    
-    for header in soup.find_all('h3'):
-        time_span = header.find('span', class_=lambda x: x and x.startswith('dt '))
-        if not time_span: continue
+    print(f"[*] Scanning VIPBOX for Live Match Logos...")
+    try:
+        res = s.get("https://vipboxi.net/live", timeout=15)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        headers = soup.find_all('h3')
         
-        # শুধু লাইভ ম্যাচ (শুরুর ৩০ মিনিট আগে থেকে)
-        if current_unix < (int(time_span['class'][1]) - 1800): continue
-        
-        match_name = header.find_all('span', id='notbold')[1].text.strip()
-        links_div = header.find_next_sibling('div')
-        
-        m3u8_link = None
-        logo_urls = []
-        
-        if links_div:
-            # ১. লোগো খোঁজা (অ্যাড লিংক থেকে)
-            for a in links_div.find_all('a'):
-                if any(x in a['href'] for x in ["lightbrights1", "bestgugo1"]):
-                    try:
-                        ad_res = s.get(a['href'], allow_redirects=True, timeout=5)
-                        ad_soup = BeautifulSoup(ad_res.text, 'html.parser')
-                        logo_urls = [urljoin(ad_res.url, i['src']) for i in ad_soup.select('.pilot img')]
-                        break
-                    except: continue
-            
-            # ২. স্ট্রিমিং লিংক খোঁজা
-            for a in links_div.find_all('a'):
-                if "vipboxi.net" in a['href']:
-                    m3u8_link = extract_m3u8(a['href'])
-                    if m3u8_link: break
-        
-        if m3u8_link:
-            poster_name = f"{sanitize_filename(match_name)}.png"
-            logo_gen = False
-            if len(logo_urls) >= 2:
-                logo_gen = create_poster(match_name, logo_urls)
-            
-            logo_final = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY')}/main/posters/{quote(poster_name)}" if logo_gen else ""
-            active_posters.append(poster_name)
-            
-            m3u_content += f'#EXTINF:-1 tvg-logo="{logo_final}" group-title="VIPBOX LIVE", {match_name}\n'
-            m3u_content += f'#EXTVLCOPT:http-referrer=https://vipbox1.com/\n{m3u8_link}\n\n'
-            print(f"✅ Processed: {match_name}")
+        current_unix = int(time.time())
+        active_posters = []
 
-    with open(PLAYLIST_FILE, "w") as f: f.write(m3u_content)
-    
-    # পুরোনো পোস্টার ডিলিট করা
-    for f in os.listdir(OUTPUT_DIR):
-        if f not in active_posters: os.remove(os.path.join(OUTPUT_DIR, f))
+        for h in headers:
+            time_span = h.find('span', class_=lambda x: x and x.startswith('dt '))
+            if not time_span: continue
+            
+            # শুধুমাত্র লাইভ ম্যাচ ফিল্টার
+            if current_unix >= (int(time_span['class'][1]) - 1800):
+                name_span = h.find_all('span', id='notbold')
+                match_name = name_span[1].text.strip() if len(name_span) > 1 else "Unknown"
+                
+                links_div = h.find_next_sibling('div')
+                if links_div:
+                    for a in links_div.find_all('a'):
+                        if any(x in a['href'] for x in ["lightbrights1", "bestgugo1"]):
+                            print(f"\n🎯 Processing: {match_name}")
+                            # রিডাইরেক্ট পেজ থেকে লোগো খোঁজা
+                            try:
+                                ad_res = s.get(a['href'], allow_redirects=True, timeout=5)
+                                ad_soup = BeautifulSoup(ad_res.text, 'html.parser')
+                                logo_urls = [urljoin(ad_res.url, i['src']) for i in ad_soup.select('.pilot img')]
+                                if len(logo_urls) >= 2:
+                                    create_poster(match_name, logo_urls)
+                                    active_posters.append(f"{sanitize_filename(match_name)}.png")
+                                    break
+                            except: continue
+
+        # পুরোনো বা শেষ হয়ে যাওয়া ম্যাচের পোস্টার ডিলিট করা
+        for f in os.listdir(OUTPUT_DIR):
+            if f.endswith('.png') and f not in active_posters:
+                os.remove(os.path.join(OUTPUT_DIR, f))
+                
+    except Exception as e:
+        print(f"Critical Error: {e}")
 
 if __name__ == "__main__":
     main()
