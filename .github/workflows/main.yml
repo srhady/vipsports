@@ -1,9 +1,9 @@
-Name: Auto Sports Poster Studio
+name: Auto Sports Poster Studio
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # প্রতি ১৫ মিনিটে অটো চলবে
-  workflow_dispatch: # ম্যানুয়ালি রান করার অপশন
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -39,10 +39,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        
-        # আপনার রিকোয়ারমেন্ট অনুযায়ী posters/ ফোল্ডারে সব ফটো সেভ হবে
         git add posters/ footy_posters/
-        
-        # যদি কোনো পরিবর্তন থাকে তবেই কমিট করবে
         git diff --quiet && git diff --staged --quiet || git commit -m "🎨 Auto-updated match posters (Cricket, Footy & VIPBOX)"
         git push
