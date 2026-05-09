@@ -1,0 +1,44 @@
+name: Alpha VIP Schedule Update
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-vip-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Public Repository
+        uses: actions/checkout@v3
+
+      - name: Checkout Private Repository
+        uses: actions/checkout@v3
+        with:
+          repository: srhady/axsportspvt
+          token: ${{ secrets.PAT_TOKEN }}
+          path: private_scripts
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Run VIP Generator
+        run: |
+          cp private_scripts/alpha_generator.js .
+          cp private_scripts/codec.wasm .
+          
+          node alpha_generator.js
+          
+          rm alpha_generator.js
+          rm codec.wasm
+          rm -rf private_scripts
+
+      - name: Commit and Push VIP JSON
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "VIP Bot"
+          git add alpha_live.json
+          git commit -m "Auto Update: VIP Alpha Schedule" || echo "No changes to commit"
+          git push
