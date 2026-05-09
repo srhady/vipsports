@@ -1,8 +1,8 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 10, 2026, 12:30:22 AM GMT+6 (BST)",
-        "total_live_matches": 10,
+        "last_updated_bdt": "May 10, 2026, 12:45:19 AM GMT+6 (BST)",
+        "total_live_matches": 12,
         "total_upcoming_matches": 8,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
@@ -15,7 +15,7 @@
             "time_bdt": "May 9, 2026, 9:55 PM (BST)",
             "time_utc": "2026-05-09 15:55:00",
             "timestamp": 1778342100,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:33:22.209820",
             "category": "PRO LEAGUE 🇸🇦",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Pro League 🇸🇦",
@@ -44,7 +44,7 @@
             "time_bdt": "May 9, 2026, 10:00 PM (BST)",
             "time_utc": "2026-05-09 16:00:00",
             "timestamp": 1778342400,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "SERIE A 🇮🇹",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Serie A 🇮🇹",
@@ -93,7 +93,7 @@
             "time_bdt": "May 9, 2026, 10:15 PM (BST)",
             "time_utc": "2026-05-09 16:15:00",
             "timestamp": 1778343300,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "PRO LEAGUE 🇸🇦",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Pro League 🇸🇦",
@@ -117,7 +117,7 @@
             "time_bdt": "May 9, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-09 16:30:00",
             "timestamp": 1778344200,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -215,7 +215,7 @@
             "time_bdt": "May 9, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-09 16:30:00",
             "timestamp": 1778344200,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "BUNDESLIGA 🇩🇪",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Bundesliga 🇩🇪",
@@ -254,7 +254,7 @@
             "time_bdt": "May 9, 2026, 11:00 PM (BST)",
             "time_utc": "2026-05-09 17:00:00",
             "timestamp": 1778346000,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "SUPER LIG",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Super Lig",
@@ -288,7 +288,7 @@
             "time_bdt": "May 9, 2026, 11:00 PM (BST)",
             "time_utc": "2026-05-09 17:00:00",
             "timestamp": 1778346000,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "BOXING",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Boxing",
@@ -312,7 +312,7 @@
             "time_bdt": "May 9, 2026, 11:00 PM (BST)",
             "time_utc": "2026-05-09 17:00:00",
             "timestamp": 1778346000,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "MLS 🇺🇸",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "MLS 🇺🇸",
@@ -336,7 +336,7 @@
             "time_bdt": "May 10, 2026, 12:00 AM (BST)",
             "time_utc": "2026-05-09 18:00:00",
             "timestamp": 1778349600,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "PRO LEAGUE 🇸🇦",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Pro League 🇸🇦",
@@ -352,17 +352,44 @@
                     "manifest_keys": ""
                 }
             ]
-        }
-    ],
-    "upcoming_matches": [
+        },
+        {
+            "stream_id": "3fef0c24b824e7bcb39338a0d23b01ce",
+            "event_name": "Nürnberg vs Schalke",
+            "status": "LIVE",
+            "time_bdt": "May 10, 2026, 12:30 AM (BST)",
+            "time_utc": "2026-05-09 18:30:00",
+            "timestamp": 1778351400,
+            "last_seen": "2026-05-09T18:42:28.201919",
+            "category": "2. BUNDESLIGA",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "2. Bundesliga",
+            "home_team": "Nürnberg",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2523/image",
+            "away_team": "Schalke",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2530/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "SKY BUNDESLIGA HD",
+                    "stream_url": "https://livecdn-bp-iptv.rumsport7.live/live_abr/33609_hd/index.m3u8?is_vip=false&token=d9281b93e57381f7e8dc3553bca8ef5697b96b12&x-sign=0a709a214469d1ac147458d494a9049b&x-time=1778351340",
+                    "manifest_keys": ""
+                },
+                {
+                    "source_name": "SPORTKLUB HD",
+                    "stream_url": "https://livecdn-bp-iptv.rumsport7.live/live_abr/69098_hd/index.m3u8?is_vip=false&token=d9281b93e57381f7e8dc3553bca8ef5697b96b12&x-sign=26962c9f45b19c82e96e18147588d9cc&x-time=1778351340",
+                    "manifest_keys": ""
+                }
+            ]
+        },
         {
             "stream_id": "3b79440894e8675d44a821770c783c43",
             "event_name": "Lecce vs Juventus",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "time_bdt": "May 10, 2026, 12:45 AM (BST)",
             "time_utc": "2026-05-09 18:45:00",
             "timestamp": 1778352300,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "SERIE A 🇮🇹",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Serie A 🇮🇹",
@@ -391,9 +418,21 @@
                     "source_name": "ELEVEN SPORTS HD",
                     "stream_url": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6411/index.mpd",
                     "manifest_keys": ""
+                },
+                {
+                    "source_name": "TNT SPORTS HD",
+                    "stream_url": "https://livecdn-bp-iptv.rumsport7.live/live_abr/33006_hd/index.m3u8?is_vip=false&token=d9281b93e57381f7e8dc3553bca8ef5697b96b12&x-sign=f6b4cc311b5e7884bb57c4efc7172de2&x-time=1778351460",
+                    "manifest_keys": ""
+                },
+                {
+                    "source_name": "CBS SPORTS HD",
+                    "stream_url": "https://livecdn-bp-livestream.rumsport7.live/stream/7/chunks.m3u8?is_vip=false&token=d9281b93e57381f7e8dc3553bca8ef5697b96b12&x-sign=1bef15cc5cb8e0dcf6ef5f3a62e7a8a4&x-time=1778351460",
+                    "manifest_keys": ""
                 }
             ]
-        },
+        }
+    ],
+    "upcoming_matches": [
         {
             "stream_id": "c5bd405e1529863f14bf42d4fcc796c5",
             "event_name": "Motherwell vs Hearts",
@@ -401,7 +440,7 @@
             "time_bdt": "May 10, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-09 19:00:00",
             "timestamp": 1778353200,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "SCOTTISH PREMIERSHIP",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Scottish Premiership",
@@ -450,7 +489,7 @@
             "time_bdt": "May 10, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-09 19:00:00",
             "timestamp": 1778353200,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "LALIGA 2",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 2",
@@ -468,13 +507,42 @@
             ]
         },
         {
+            "stream_id": "68c76d59eaa0fa571ed5a23d263141e4",
+            "event_name": "Cleveland Cavaliers vs Detroit Pistons",
+            "status": "UPCOMING",
+            "time_bdt": "May 10, 2026, 1:00 AM (BST)",
+            "time_utc": "2026-05-09 19:00:00",
+            "timestamp": 1778353200,
+            "last_seen": "2026-05-09T18:42:28.201919",
+            "category": "NBA",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "NBA",
+            "home_team": "Cleveland Cavaliers",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3432/image",
+            "away_team": "Detroit Pistons",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3424/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "TSN SPORTS FHD",
+                    "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+                    "manifest_keys": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003"
+                },
+                {
+                    "source_name": "TSN SPORTS HD",
+                    "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+                    "manifest_keys": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689"
+                }
+            ]
+        },
+        {
             "stream_id": "ccabc191241f724d2ccb2e75cd170d4d",
             "event_name": "UFC 328: Chimaev vs Strickland",
             "status": "UPCOMING",
             "time_bdt": "May 10, 2026, 3:00 AM (BST)",
             "time_utc": "2026-05-09 21:00:00",
             "timestamp": 1778360400,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "UFC",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "UFC",
@@ -509,7 +577,7 @@
             "time_bdt": "May 10, 2026, 4:00 AM (BST)",
             "time_utc": "2026-05-09 22:00:00",
             "timestamp": 1778364000,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "NHL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NHL",
@@ -532,7 +600,7 @@
             "time_bdt": "May 10, 2026, 6:30 AM (BST)",
             "time_utc": "2026-05-10 00:30:00",
             "timestamp": 1778373000,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "NBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NBA",
@@ -545,14 +613,6 @@
                 {
                     "source_name": "TSN SPORTS FHD",
                     "stream_url": "Links will be available 30 minutes before the match starts."
-                },
-                {
-                    "source_name": "NBA LIVE FHD",
-                    "stream_url": "Links will be available 30 minutes before the match starts."
-                },
-                {
-                    "source_name": "SPX LIVE HD",
-                    "stream_url": "Links will be available 30 minutes before the match starts."
                 }
             ]
         },
@@ -563,7 +623,7 @@
             "time_bdt": "May 10, 2026, 7:00 AM (BST)",
             "time_utc": "2026-05-10 01:00:00",
             "timestamp": 1778374800,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "NHL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NHL",
@@ -586,7 +646,7 @@
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-09T18:27:26.528353",
+            "last_seen": "2026-05-09T18:42:28.201919",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
