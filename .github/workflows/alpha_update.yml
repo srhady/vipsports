@@ -1,8 +1,7 @@
 name: Alpha VIP Schedule Update
 
 on:
-  schedule:
-    - cron: '*/15 * * * *'
+  
   workflow_dispatch:
 
 jobs:
