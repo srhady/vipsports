@@ -1,67 +1,13 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 10, 2026, 8:45:24 AM GMT+6 (BST)",
-        "total_live_matches": 5,
+        "last_updated_bdt": "May 10, 2026, 9:00:28 AM GMT+6 (BST)",
+        "total_live_matches": 4,
         "total_upcoming_matches": 9,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
     },
     "live_matches": [
-        {
-            "stream_id": "ccabc191241f724d2ccb2e75cd170d4d",
-            "event_name": "UFC 328: Chimaev vs Strickland",
-            "status": "LIVE",
-            "time_bdt": "May 10, 2026, 3:00 AM (BST)",
-            "time_utc": "2026-05-09 21:00:00",
-            "timestamp": 1778360400,
-            "last_seen": "2026-05-10T02:45:23.215455",
-            "category": "UFC",
-            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
-            "league": "UFC",
-            "home_team": "UFC 328: Chimaev",
-            "home_team_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/ufc-us.png",
-            "away_team": "Strickland",
-            "away_team_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/ufc-us.png",
-            "poster": "",
-            "streams": [
-                {
-                    "source_name": "UFC MAIN EVENT",
-                    "stream_url": "https://dice-live-us.akamaized.net/hdntl=exp=1778449300~acl=%2f*~id=04ac28b3-a583-40f8-ba85-41cbdafe82a2~data=hdntl,aXA9MTA4LjE4MS4wLjEwOSZleHA9MTc3ODM2MjkzMCZlaWQ9OTM5OTYyJm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=c4bc23da51eb17568c36355418d3f2a29ec4d8fa934bda59f9b0d5f84226f312/dash/live/2026481/300816-321332/manifest-d.mpd",
-                    "manifest_keys": "9cd8b21459ba4347b38c541f4cd1ba1d:dd7caca600ea44c18bc392f2403e910e"
-                },
-                {
-                    "source_name": "TNT SPORTS FHD",
-                    "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
-                    "manifest_keys": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b"
-                },
-                {
-                    "source_name": "SETANTA SPORTS",
-                    "stream_url": "https://adjara-live-eu.akamaized.net/exp=1778461156~acl=%2f*~id=f0a36e2d-f525-4bb0-bf96-300a9aae2121~data=hdntl,aXA9OTMuMTE0LjYwLjI4JmV4cD0xNzc4Mzc0Nzg1JmVpZD05NTE4OTcmb2lkPTE1NCZ0eXBlPVZPRCZ1aWQ9eFJScW85fGJjYWVhN2NmLWMzMzctNDAzOS04MTU4LTNjMWNlNDllNzI5MyZjaWQ9ZGNlLmZpc2ZlZCZwdD1udWxs~hmac=6d05e95461c973d33a3b9ef159dfbf04ee3d48240cdf4d0a3ab1173c49e516a2/dash/live/2001597/302586-321337/manifest-d.mpd",
-                    "manifest_keys": "9b521c9d6ef04ae387ed542a75296f38:57cedb774d6b489480ed4701e831aae7"
-                },
-                {
-                    "source_name": "PARAMOUNT+",
-                    "stream_url": "https://customer-zbcm6pq2tkb2rho0.cloudflarestream.com/1719e2f2cf8b19a82dad1bdc46fedfa9/manifest/video.m3u8",
-                    "manifest_keys": ""
-                },
-                {
-                    "source_name": "SPX UFC+ FHD",
-                    "stream_url": "https://nb6.bpfiles.cfd/live/ufc328/stream.m3u8",
-                    "manifest_keys": ""
-                },
-                {
-                    "source_name": "SPX UFC+ HD",
-                    "stream_url": "https://storage.googleapis.com/unicertyngher3/mux_video_ts1/index-1.m3u8",
-                    "manifest_keys": ""
-                },
-                {
-                    "source_name": "UFC+",
-                    "stream_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/8mxwjnh2te/out/v1/356704796c0c4bed81f67cd3518d0c8a/cenc.mpd",
-                    "manifest_keys": "a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
-                }
-            ]
-        },
         {
             "stream_id": "8923af6f3a5e81cff73c7d98c069f060",
             "event_name": "Bahia vs Cruzeiro",
@@ -69,7 +15,7 @@
             "time_bdt": "May 10, 2026, 6:00 AM (BST)",
             "time_utc": "2026-05-10 00:00:00",
             "timestamp": 1778371200,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "BRASILEIRÃO",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Brasileirão",
@@ -98,7 +44,7 @@
             "time_bdt": "May 10, 2026, 6:00 AM (BST)",
             "time_utc": "2026-05-10 00:00:00",
             "timestamp": 1778371200,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "BOXING",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Boxing",
@@ -122,7 +68,7 @@
             "time_bdt": "May 10, 2026, 6:30 AM (BST)",
             "time_utc": "2026-05-10 00:30:00",
             "timestamp": 1778373000,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "NBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NBA",
@@ -161,7 +107,7 @@
             "time_bdt": "May 10, 2026, 7:00 AM (BST)",
             "time_utc": "2026-05-10 01:00:00",
             "timestamp": 1778374800,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "NHL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NHL",
@@ -187,7 +133,7 @@
             "time_bdt": "May 10, 2026, 10:00 AM (BST)",
             "time_utc": "2026-05-10 04:00:00",
             "timestamp": 1778385600,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "CRICKET",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Cricket",
@@ -226,7 +172,7 @@
             "time_bdt": "May 10, 2026, 4:00 PM (BST)",
             "time_utc": "2026-05-10 10:00:00",
             "timestamp": 1778407200,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "INDIAN PREMIER LEAGUE",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Indian Premier League",
@@ -253,7 +199,7 @@
             "time_bdt": "May 10, 2026, 5:00 PM (BST)",
             "time_utc": "2026-05-10 11:00:00",
             "timestamp": 1778410800,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "SCOTTISH PREMIERSHIP",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Scottish Premiership",
@@ -280,7 +226,7 @@
             "time_bdt": "May 10, 2026, 8:00 PM (BST)",
             "time_utc": "2026-05-10 14:00:00",
             "timestamp": 1778421600,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "INDIAN PREMIER LEAGUE",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Indian Premier League",
@@ -307,7 +253,7 @@
             "time_bdt": "May 10, 2026, 10:05 PM (BST)",
             "time_utc": "2026-05-10 16:05:00",
             "timestamp": 1778429100,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "PRO LEAGUE 🇸🇦",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Pro League 🇸🇦",
@@ -334,7 +280,7 @@
             "time_bdt": "May 11, 2026, 12:00 AM (BST)",
             "time_utc": "2026-05-10 18:00:00",
             "timestamp": 1778436000,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "PRO LEAGUE 🇸🇦",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Pro League 🇸🇦",
@@ -404,7 +350,7 @@
             "time_bdt": "May 11, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-10 19:00:00",
             "timestamp": 1778439600,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "LALIGA 🇪🇸",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 🇪🇸",
@@ -435,7 +381,7 @@
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-10T02:45:23.215455",
+            "last_seen": "2026-05-10T02:57:21.006534",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
