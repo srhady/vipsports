@@ -1,9 +1,9 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 10, 2026, 8:00:23 PM GMT+6 (BST)",
-        "total_live_matches": 17,
-        "total_upcoming_matches": 23,
+        "last_updated_bdt": "May 10, 2026, 8:15:26 PM GMT+6 (BST)",
+        "total_live_matches": 19,
+        "total_upcoming_matches": 28,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
     },
@@ -15,7 +15,7 @@
             "time_bdt": "May 10, 2026, 4:00 PM (BST)",
             "time_utc": "2026-05-10 10:00:00",
             "timestamp": 1778407200,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "INDIAN PREMIER LEAGUE",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Indian Premier League",
@@ -49,7 +49,7 @@
             "time_bdt": "May 10, 2026, 5:00 PM (BST)",
             "time_utc": "2026-05-10 11:00:00",
             "timestamp": 1778410800,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "SCOTTISH PREMIERSHIP",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Scottish Premiership",
@@ -88,7 +88,7 @@
             "time_bdt": "May 10, 2026, 5:30 PM (BST)",
             "time_utc": "2026-05-10 11:30:00",
             "timestamp": 1778412600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "2. BUNDESLIGA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "2. Bundesliga",
@@ -117,7 +117,7 @@
             "time_bdt": "May 10, 2026, 5:30 PM (BST)",
             "time_utc": "2026-05-10 11:30:00",
             "timestamp": 1778412600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "2. BUNDESLIGA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "2. Bundesliga",
@@ -146,7 +146,7 @@
             "time_bdt": "May 10, 2026, 5:30 PM (BST)",
             "time_utc": "2026-05-10 11:30:00",
             "timestamp": 1778412600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "2. BUNDESLIGA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "2. Bundesliga",
@@ -170,7 +170,7 @@
             "time_bdt": "May 10, 2026, 6:00 PM (BST)",
             "time_utc": "2026-05-10 12:00:00",
             "timestamp": 1778414400,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "MOTOGP",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "MotoGP",
@@ -209,7 +209,7 @@
             "time_bdt": "May 10, 2026, 6:00 PM (BST)",
             "time_utc": "2026-05-10 12:00:00",
             "timestamp": 1778414400,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LALIGA 🇪🇸",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 🇪🇸",
@@ -258,7 +258,7 @@
             "time_bdt": "May 10, 2026, 6:00 PM (BST)",
             "time_utc": "2026-05-10 12:00:00",
             "timestamp": 1778414400,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LALIGA 2",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 2",
@@ -282,7 +282,7 @@
             "time_bdt": "May 10, 2026, 6:55 PM (BST)",
             "time_utc": "2026-05-10 12:55:00",
             "timestamp": 1778417700,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -306,7 +306,7 @@
             "time_bdt": "May 10, 2026, 7:00 PM (BST)",
             "time_utc": "2026-05-10 13:00:00",
             "timestamp": 1778418000,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -350,7 +350,7 @@
             "time_bdt": "May 10, 2026, 7:00 PM (BST)",
             "time_utc": "2026-05-10 13:00:00",
             "timestamp": 1778418000,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -399,7 +399,7 @@
             "time_bdt": "May 10, 2026, 7:00 PM (BST)",
             "time_utc": "2026-05-10 13:00:00",
             "timestamp": 1778418000,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "SERIE A 🇮🇹",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Serie A 🇮🇹",
@@ -428,7 +428,7 @@
             "time_bdt": "May 10, 2026, 7:00 PM (BST)",
             "time_utc": "2026-05-10 13:00:00",
             "timestamp": 1778418000,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "SERIE A 🇮🇹",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Serie A 🇮🇹",
@@ -462,7 +462,7 @@
             "time_bdt": "May 10, 2026, 7:00 PM (BST)",
             "time_utc": "2026-05-10 13:00:00",
             "timestamp": 1778418000,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -496,7 +496,7 @@
             "time_bdt": "May 10, 2026, 7:30 PM (BST)",
             "time_utc": "2026-05-10 13:30:00",
             "timestamp": 1778419800,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "BUNDESLIGA 🇩🇪",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Bundesliga 🇩🇪",
@@ -535,7 +535,7 @@
             "time_bdt": "May 10, 2026, 8:00 PM (BST)",
             "time_utc": "2026-05-10 14:00:00",
             "timestamp": 1778421600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "INDIAN PREMIER LEAGUE",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Indian Premier League",
@@ -569,7 +569,7 @@
             "time_bdt": "May 10, 2026, 8:00 PM (BST)",
             "time_utc": "2026-05-10 14:00:00",
             "timestamp": 1778421600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LEAGUE TWO 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "League Two 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -585,17 +585,15 @@
                     "manifest_keys": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
                 }
             ]
-        }
-    ],
-    "upcoming_matches": [
+        },
         {
             "stream_id": "c1457f9a88021f6128e775b56a510e12",
             "event_name": "Athletic Club vs Valencia",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "time_bdt": "May 10, 2026, 8:15 PM (BST)",
             "time_utc": "2026-05-10 14:15:00",
             "timestamp": 1778422500,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LALIGA 🇪🇸",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 🇪🇸",
@@ -614,17 +612,22 @@
                     "source_name": "LALIGA TV FHD",
                     "stream_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
                     "manifest_keys": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a"
+                },
+                {
+                    "source_name": "FANCODE FHD",
+                    "stream_url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+                    "manifest_keys": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe"
                 }
             ]
         },
         {
             "stream_id": "c711acaedf06d8de66ab5c43a395a55a",
             "event_name": "Leganés vs Racing Club",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "time_bdt": "May 10, 2026, 8:15 PM (BST)",
             "time_utc": "2026-05-10 14:15:00",
             "timestamp": 1778422500,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LALIGA 2",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 2",
@@ -640,7 +643,9 @@
                     "manifest_keys": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30"
                 }
             ]
-        },
+        }
+    ],
+    "upcoming_matches": [
         {
             "stream_id": "9041bdd3fbc84bf9aa89af249bcaa873",
             "event_name": "Feyenoord vs AZ Alkmaar",
@@ -648,7 +653,7 @@
             "time_bdt": "May 10, 2026, 8:45 PM (BST)",
             "time_utc": "2026-05-10 14:45:00",
             "timestamp": 1778424300,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "EREDIVISIE",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Eredivisie",
@@ -660,11 +665,95 @@
             "streams": [
                 {
                     "source_name": "PREMIER SPORTS",
-                    "stream_url": "Links will be available 30 minutes before the match starts."
+                    "stream_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+                    "manifest_keys": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
                 },
                 {
                     "source_name": "SPORTDIGITAL FUSSBALL",
-                    "stream_url": "Links will be available 30 minutes before the match starts."
+                    "stream_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+                    "manifest_keys": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+                },
+                {
+                    "source_name": "LIVE",
+                    "stream_url": "https://pul-tenm.nbs3g.com/live/sd-1-4344767.m3u8?txSecret=8c8b484aebe12ff55cccde02405e5d6c&txTime=6A01E2C3",
+                    "manifest_keys": ""
+                }
+            ]
+        },
+        {
+            "stream_id": "8ad34d0a463a5806c8ad8373608a37a0",
+            "event_name": "GA Eagles vs PSV Eindhoven",
+            "status": "UPCOMING",
+            "time_bdt": "May 10, 2026, 8:45 PM (BST)",
+            "time_utc": "2026-05-10 14:45:00",
+            "timestamp": 1778424300,
+            "last_seen": "2026-05-10T14:12:32.411593",
+            "category": "EREDIVISIE",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "Eredivisie",
+            "home_team": "GA Eagles",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2979/image",
+            "away_team": "PSV Eindhoven",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2952/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "SPX LIVE HD",
+                    "stream_url": "https://livecdn-bp-livestream.rumsport7.live/stream/4/chunks.m3u8?is_vip=false&token=423f801e50d6d76224865486813545aa22a805e4&x-sign=6e0611fb29cf4af58cb19d335ee7d521&x-time=1778422260",
+                    "manifest_keys": ""
+                },
+                {
+                    "source_name": "LIVE",
+                    "stream_url": "https://pul-tenm.nbs3g.com/live/sd-1-4344700.m3u8?txSecret=f74f57f0b70fd34005789e6e996b36e8&txTime=6A01E2C3",
+                    "manifest_keys": ""
+                }
+            ]
+        },
+        {
+            "stream_id": "eb614388aaf57b89c54850e93182c167",
+            "event_name": "AFC Ajax vs Utrecht",
+            "status": "UPCOMING",
+            "time_bdt": "May 10, 2026, 8:45 PM (BST)",
+            "time_utc": "2026-05-10 14:45:00",
+            "timestamp": 1778424300,
+            "last_seen": "2026-05-10T14:12:32.411593",
+            "category": "EREDIVISIE",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "Eredivisie",
+            "home_team": "AFC Ajax",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2953/image",
+            "away_team": "Utrecht",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2948/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "LIVE",
+                    "stream_url": "https://pul-tenm.nbs3g.com/live/sd-1-4344796.m3u8?txSecret=3b182b9e08df11a2f6e36566e15e56e3&txTime=6A01E2C3",
+                    "manifest_keys": ""
+                }
+            ]
+        },
+        {
+            "stream_id": "a830f73c52f6e7685aad5727387fe92f",
+            "event_name": "Twente vs Sparta",
+            "status": "UPCOMING",
+            "time_bdt": "May 10, 2026, 8:45 PM (BST)",
+            "time_utc": "2026-05-10 14:45:00",
+            "timestamp": 1778424300,
+            "last_seen": "2026-05-10T14:12:32.411593",
+            "category": "EREDIVISIE",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "Eredivisie",
+            "home_team": "Twente",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2955/image",
+            "away_team": "Sparta",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2960/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "LIVE",
+                    "stream_url": "https://pul-tenm.nbs3g.com/live/sd-1-4344709.m3u8?txSecret=4341450adac6c15aa515320febc35127&txTime=6A01E2C3",
+                    "manifest_keys": ""
                 }
             ]
         },
@@ -675,7 +764,7 @@
             "time_bdt": "May 10, 2026, 9:30 PM (BST)",
             "time_utc": "2026-05-10 15:30:00",
             "timestamp": 1778427000,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -706,7 +795,7 @@
             "time_bdt": "May 10, 2026, 9:30 PM (BST)",
             "time_utc": "2026-05-10 15:30:00",
             "timestamp": 1778427000,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "BUNDESLIGA 🇩🇪",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Bundesliga 🇩🇪",
@@ -733,7 +822,7 @@
             "time_bdt": "May 10, 2026, 10:00 PM (BST)",
             "time_utc": "2026-05-10 16:00:00",
             "timestamp": 1778428800,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "SERIE A 🇮🇹",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Serie A 🇮🇹",
@@ -768,7 +857,7 @@
             "time_bdt": "May 10, 2026, 10:05 PM (BST)",
             "time_utc": "2026-05-10 16:05:00",
             "timestamp": 1778429100,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "PRO LEAGUE 🇸🇦",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Pro League 🇸🇦",
@@ -795,7 +884,7 @@
             "time_bdt": "May 10, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-10 16:30:00",
             "timestamp": 1778430600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LALIGA 🇪🇸",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 🇪🇸",
@@ -826,7 +915,7 @@
             "time_bdt": "May 10, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-10 16:30:00",
             "timestamp": 1778430600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LALIGA 2",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 2",
@@ -849,7 +938,7 @@
             "time_bdt": "May 10, 2026, 11:00 PM (BST)",
             "time_utc": "2026-05-10 17:00:00",
             "timestamp": 1778432400,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LIGA PORTUGAL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Liga Portugal",
@@ -872,7 +961,7 @@
             "time_bdt": "May 10, 2026, 11:30 PM (BST)",
             "time_utc": "2026-05-10 17:30:00",
             "timestamp": 1778434200,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "BUNDESLIGA 🇩🇪",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Bundesliga 🇩🇪",
@@ -895,7 +984,7 @@
             "time_bdt": "May 11, 2026, 12:00 AM (BST)",
             "time_utc": "2026-05-10 18:00:00",
             "timestamp": 1778436000,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "PRO LEAGUE 🇸🇦",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Pro League 🇸🇦",
@@ -922,7 +1011,7 @@
             "time_bdt": "May 11, 2026, 12:45 AM (BST)",
             "time_utc": "2026-05-10 18:45:00",
             "timestamp": 1778438700,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "SERIE A 🇮🇹",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Serie A 🇮🇹",
@@ -957,7 +1046,7 @@
             "time_bdt": "May 11, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-10 19:00:00",
             "timestamp": 1778439600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LALIGA 🇪🇸",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 🇪🇸",
@@ -988,7 +1077,7 @@
             "time_bdt": "May 11, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-10 19:00:00",
             "timestamp": 1778439600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LIGUE 1 🇫🇷",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Ligue 1 🇫🇷",
@@ -1011,7 +1100,7 @@
             "time_bdt": "May 11, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-10 19:00:00",
             "timestamp": 1778439600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LIGUE 1 🇫🇷",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Ligue 1 🇫🇷",
@@ -1034,7 +1123,7 @@
             "time_bdt": "May 11, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-10 19:00:00",
             "timestamp": 1778439600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LIGUE 1 🇫🇷",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Ligue 1 🇫🇷",
@@ -1057,7 +1146,7 @@
             "time_bdt": "May 11, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-10 19:00:00",
             "timestamp": 1778439600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LIGUE 1 🇫🇷",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Ligue 1 🇫🇷",
@@ -1080,7 +1169,7 @@
             "time_bdt": "May 11, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-10 19:00:00",
             "timestamp": 1778439600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LIGUE 1 🇫🇷",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Ligue 1 🇫🇷",
@@ -1103,7 +1192,7 @@
             "time_bdt": "May 11, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-10 19:00:00",
             "timestamp": 1778439600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LIGUE 1 🇫🇷",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Ligue 1 🇫🇷",
@@ -1126,7 +1215,7 @@
             "time_bdt": "May 11, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-10 19:00:00",
             "timestamp": 1778439600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LIGUE 1 🇫🇷",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Ligue 1 🇫🇷",
@@ -1149,7 +1238,7 @@
             "time_bdt": "May 11, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-10 19:00:00",
             "timestamp": 1778439600,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "LIGUE 1 🇫🇷",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Ligue 1 🇫🇷",
@@ -1166,13 +1255,121 @@
             ]
         },
         {
+            "stream_id": "6d8f13d314c88d7cfdd991defa0a2b32",
+            "event_name": "Philadelphia 76ers vs New York Knicks",
+            "status": "UPCOMING",
+            "time_bdt": "May 11, 2026, 1:30 AM (BST)",
+            "time_utc": "2026-05-10 19:30:00",
+            "timestamp": 1778441400,
+            "last_seen": "2026-05-10T14:12:32.411593",
+            "category": "NBA",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "NBA",
+            "home_team": "Philadelphia 76ers",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3420/image",
+            "away_team": "New York Knicks",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3421/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "TSN SPORTS FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "TSN SPORTS HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
+            "stream_id": "7f5d2e0fd795a620a4b39ceda78a27ab",
+            "event_name": "Montréal Canadiens vs Buffalo Sabres",
+            "status": "UPCOMING",
+            "time_bdt": "May 11, 2026, 5:00 AM (BST)",
+            "time_utc": "2026-05-10 23:00:00",
+            "timestamp": 1778454000,
+            "last_seen": "2026-05-10T14:12:32.411593",
+            "category": "NHL",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "NHL",
+            "home_team": "Montréal Canadiens",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3690/image",
+            "away_team": "Buffalo Sabres",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3678/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "PREMIER SPORTS",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
+            "stream_id": "90dd3254336ab327c91a684306901ae9",
+            "event_name": "Minnesota Timberwolves vs San Antonio Spurs",
+            "status": "UPCOMING",
+            "time_bdt": "May 11, 2026, 5:30 AM (BST)",
+            "time_utc": "2026-05-10 23:30:00",
+            "timestamp": 1778455800,
+            "last_seen": "2026-05-10T14:12:32.411593",
+            "category": "NBA",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "NBA",
+            "home_team": "Minnesota Timberwolves",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3426/image",
+            "away_team": "San Antonio Spurs",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3429/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "TSN SPORTS FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "SPX HD LIVE",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "SPX LIVE FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "SPX LIVE HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
+            "stream_id": "208912386fdb422aaecebb7b82821cf2",
+            "event_name": "Anaheim Ducks vs Vegas Golden Knights",
+            "status": "UPCOMING",
+            "time_bdt": "May 11, 2026, 7:30 AM (BST)",
+            "time_utc": "2026-05-11 01:30:00",
+            "timestamp": 1778463000,
+            "last_seen": "2026-05-10T14:12:32.411593",
+            "category": "NHL",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "NHL",
+            "home_team": "Anaheim Ducks",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3675/image",
+            "away_team": "Vegas Golden Knights",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/257523/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "PREMIER SPORTS",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
             "stream_id": "a28df907fcd5ac8f0f2b47e37749f402",
             "event_name": "Formula 1 - Canada GP",
             "status": "UPCOMING",
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-10T14:00:08.966973",
+            "last_seen": "2026-05-10T14:12:32.411593",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
