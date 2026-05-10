@@ -1,9 +1,9 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 10, 2026, 6:00:26 AM GMT+6 (BST)",
+        "last_updated_bdt": "May 10, 2026, 6:15:21 AM GMT+6 (BST)",
         "total_live_matches": 4,
-        "total_upcoming_matches": 3,
+        "total_upcoming_matches": 8,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
     },
@@ -15,7 +15,7 @@
             "time_bdt": "May 10, 2026, 3:00 AM (BST)",
             "time_utc": "2026-05-09 21:00:00",
             "timestamp": 1778360400,
-            "last_seen": "2026-05-09T23:57:29.114692",
+            "last_seen": "2026-05-10T00:12:33.408647",
             "category": "UFC",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "UFC",
@@ -69,7 +69,7 @@
             "time_bdt": "May 10, 2026, 3:00 AM (BST)",
             "time_utc": "2026-05-09 21:00:00",
             "timestamp": 1778360400,
-            "last_seen": "2026-05-09T23:57:29.114692",
+            "last_seen": "2026-05-10T00:12:33.408647",
             "category": "BRASILEIRÃO",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Brasileirão",
@@ -98,7 +98,7 @@
             "time_bdt": "May 10, 2026, 4:00 AM (BST)",
             "time_utc": "2026-05-09 22:00:00",
             "timestamp": 1778364000,
-            "last_seen": "2026-05-09T23:57:29.114692",
+            "last_seen": "2026-05-10T00:12:33.408647",
             "category": "NHL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NHL",
@@ -122,7 +122,7 @@
             "time_bdt": "May 10, 2026, 6:00 AM (BST)",
             "time_utc": "2026-05-10 00:00:00",
             "timestamp": 1778371200,
-            "last_seen": "2026-05-09T23:57:29.114692",
+            "last_seen": "2026-05-10T00:12:33.408647",
             "category": "BRASILEIRÃO",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Brasileirão",
@@ -153,7 +153,7 @@
             "time_bdt": "May 10, 2026, 6:30 AM (BST)",
             "time_utc": "2026-05-10 00:30:00",
             "timestamp": 1778373000,
-            "last_seen": "2026-05-09T23:57:29.114692",
+            "last_seen": "2026-05-10T00:12:33.408647",
             "category": "NBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NBA",
@@ -177,7 +177,7 @@
             "time_bdt": "May 10, 2026, 7:00 AM (BST)",
             "time_utc": "2026-05-10 01:00:00",
             "timestamp": 1778374800,
-            "last_seen": "2026-05-09T23:57:29.114692",
+            "last_seen": "2026-05-10T00:12:33.408647",
             "category": "NHL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NHL",
@@ -194,13 +194,192 @@
             ]
         },
         {
+            "stream_id": "ae81757a929aa4d56921d4c0952522df",
+            "event_name": "Bangladesh vs Pakistan",
+            "status": "UPCOMING",
+            "time_bdt": "May 10, 2026, 10:00 AM (BST)",
+            "time_utc": "2026-05-10 04:00:00",
+            "timestamp": 1778385600,
+            "last_seen": "2026-05-10T00:12:33.408647",
+            "category": "CRICKET",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "Cricket",
+            "home_team": "Bangladesh",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/187744/image",
+            "away_team": "Pakistan",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/187754/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "WILLOW [AD-FREE]",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "PREMIER SPORTS",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "FANCODE FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "WILLOW HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "FANCODE - SD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
+            "stream_id": "2d33e924f8558aec7036106c088bb12c",
+            "event_name": "Chennai Super Kings vs Lucknow Super Giants",
+            "status": "UPCOMING",
+            "time_bdt": "May 10, 2026, 4:00 PM (BST)",
+            "time_utc": "2026-05-10 10:00:00",
+            "timestamp": 1778407200,
+            "last_seen": "2026-05-10T00:12:33.408647",
+            "category": "INDIAN PREMIER LEAGUE",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "Indian Premier League",
+            "home_team": "Chennai Super Kings",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/187777/image",
+            "away_team": "Lucknow Super Giants",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/410010/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "WILLOW [AD-FREE]",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "WILLOW - SD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
+            "stream_id": "14c909754ac3c117543ef6cd3b3c439c",
+            "event_name": "Royal Challengers Bengaluru vs Mumbai Indians",
+            "status": "UPCOMING",
+            "time_bdt": "May 10, 2026, 8:00 PM (BST)",
+            "time_utc": "2026-05-10 14:00:00",
+            "timestamp": 1778421600,
+            "last_seen": "2026-05-10T00:12:33.408647",
+            "category": "INDIAN PREMIER LEAGUE",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "Indian Premier League",
+            "home_team": "Royal Challengers Bengaluru",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/187843/image",
+            "away_team": "Mumbai Indians",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/187780/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "WILLOW [AD-FREE]",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "FOX CRICKET",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
+            "stream_id": "867df752f3bea9e004097059b29f026e",
+            "event_name": "FC Barcelona vs Real Madrid",
+            "status": "UPCOMING",
+            "time_bdt": "May 11, 2026, 1:00 AM (BST)",
+            "time_utc": "2026-05-10 19:00:00",
+            "timestamp": 1778439600,
+            "last_seen": "2026-05-10T00:09:22.108726",
+            "category": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+            "home_team": "FC Barcelona",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2817/image",
+            "away_team": "Real Madrid",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2829/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "SKY SPORTS FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "PREMIER SPORTS FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "NOVA SPORTS PL",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "SKY SPORTS HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "HUB PREMIER HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "STAN SPORTS HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
+            "stream_id": "f195661d92a8b2f5a1789313f3a5ff0c",
+            "event_name": "Barcelona vs Real Madrid",
+            "status": "UPCOMING",
+            "time_bdt": "May 11, 2026, 1:00 AM (BST)",
+            "time_utc": "2026-05-10 19:00:00",
+            "timestamp": 1778439600,
+            "last_seen": "2026-05-10T00:12:33.408647",
+            "category": "LALIGA 🇪🇸",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "LaLiga 🇪🇸",
+            "home_team": "Barcelona",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2817/image",
+            "away_team": "Real Madrid",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2829/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "SKY SPORTS FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "PREMIER SPORTS FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "NOVA SPORTS PL",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "SKY SPORTS HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "HUB PREMIER HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "STAN SPORTS HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
             "stream_id": "a28df907fcd5ac8f0f2b47e37749f402",
             "event_name": "Formula 1 - Canada GP",
             "status": "UPCOMING",
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-09T23:57:29.114692",
+            "last_seen": "2026-05-10T00:12:33.408647",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
