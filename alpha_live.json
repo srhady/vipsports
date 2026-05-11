@@ -1,9 +1,9 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 11, 2026, 7:30:22 AM GMT+6 (BST)",
+        "last_updated_bdt": "May 11, 2026, 7:45:18 AM GMT+6 (BST)",
         "total_live_matches": 3,
-        "total_upcoming_matches": 1,
+        "total_upcoming_matches": 3,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
     },
@@ -15,7 +15,7 @@
             "time_bdt": "May 11, 2026, 5:00 AM (BST)",
             "time_utc": "2026-05-10 23:00:00",
             "timestamp": 1778454000,
-            "last_seen": "2026-05-11T01:27:29.935698",
+            "last_seen": "2026-05-11T01:42:29.233821",
             "category": "NHL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NHL",
@@ -78,7 +78,7 @@
             "time_bdt": "May 11, 2026, 7:30 AM (BST)",
             "time_utc": "2026-05-11 01:30:00",
             "timestamp": 1778463000,
-            "last_seen": "2026-05-11T01:27:29.935698",
+            "last_seen": "2026-05-11T01:42:29.233821",
             "category": "NHL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NHL",
@@ -98,13 +98,83 @@
     ],
     "upcoming_matches": [
         {
+            "stream_id": "ae81757a929aa4d56921d4c0952522df",
+            "event_name": "Bangladesh vs Pakistan",
+            "status": "UPCOMING",
+            "time_bdt": "May 11, 2026, 10:00 AM (BST)",
+            "time_utc": "2026-05-11 04:00:00",
+            "timestamp": 1778472000,
+            "last_seen": "2026-05-11T01:42:29.233821",
+            "category": "CRICKET",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "Cricket",
+            "home_team": "Bangladesh",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/187744/image",
+            "away_team": "Pakistan",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/187754/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "WILLOW [AD-FREE]",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "PREMIER SPORTS",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "FANCODE FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "WILLOW HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "FANCODE - SD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
+            "stream_id": "fd824408d9b34f0f92a9b9f104829395",
+            "event_name": "Punjab Kings vs Delhi Capitals",
+            "status": "UPCOMING",
+            "time_bdt": "May 11, 2026, 8:00 PM (BST)",
+            "time_utc": "2026-05-11 14:00:00",
+            "timestamp": 1778508000,
+            "last_seen": "2026-05-11T01:42:29.233821",
+            "category": "INDIAN PREMIER LEAGUE",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "Indian Premier League",
+            "home_team": "Punjab Kings",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/187776/image",
+            "away_team": "Delhi Capitals",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/187841/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "SKY SPORTS FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "KAYO HINDI FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "WILLOW [AD-FREE]",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
             "stream_id": "a28df907fcd5ac8f0f2b47e37749f402",
             "event_name": "Formula 1 - Canada GP",
             "status": "UPCOMING",
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-11T01:27:29.935698",
+            "last_seen": "2026-05-11T01:42:29.233821",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
