@@ -1,37 +1,13 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 11, 2026, 8:45:24 AM GMT+6 (BST)",
-        "total_live_matches": 3,
+        "last_updated_bdt": "May 11, 2026, 9:00:26 AM GMT+6 (BST)",
+        "total_live_matches": 2,
         "total_upcoming_matches": 3,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
     },
     "live_matches": [
-        {
-            "stream_id": "7f5d2e0fd795a620a4b39ceda78a27ab",
-            "event_name": "Montréal Canadiens vs Buffalo Sabres",
-            "status": "LIVE",
-            "time_bdt": "May 11, 2026, 5:00 AM (BST)",
-            "time_utc": "2026-05-10 23:00:00",
-            "timestamp": 1778454000,
-            "last_seen": "2026-05-11T02:12:25.311496",
-            "category": "NHL",
-            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
-            "league": "NHL",
-            "home_team": "Montréal Canadiens",
-            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3690/image",
-            "away_team": "Buffalo Sabres",
-            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3678/image",
-            "poster": "",
-            "streams": [
-                {
-                    "source_name": "PREMIER SPORTS",
-                    "stream_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-                    "manifest_keys": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-                }
-            ]
-        },
         {
             "stream_id": "90dd3254336ab327c91a684306901ae9",
             "event_name": "Minnesota Timberwolves vs San Antonio Spurs",
@@ -78,7 +54,7 @@
             "time_bdt": "May 11, 2026, 7:30 AM (BST)",
             "time_utc": "2026-05-11 01:30:00",
             "timestamp": 1778463000,
-            "last_seen": "2026-05-11T02:42:20.161054",
+            "last_seen": "2026-05-11T02:57:21.353285",
             "category": "NHL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NHL",
@@ -104,7 +80,7 @@
             "time_bdt": "May 11, 2026, 10:00 AM (BST)",
             "time_utc": "2026-05-11 04:00:00",
             "timestamp": 1778472000,
-            "last_seen": "2026-05-11T02:42:20.161054",
+            "last_seen": "2026-05-11T02:57:21.353285",
             "category": "CRICKET",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Cricket",
@@ -143,7 +119,7 @@
             "time_bdt": "May 11, 2026, 8:00 PM (BST)",
             "time_utc": "2026-05-11 14:00:00",
             "timestamp": 1778508000,
-            "last_seen": "2026-05-11T02:42:20.161054",
+            "last_seen": "2026-05-11T02:57:21.353285",
             "category": "INDIAN PREMIER LEAGUE",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Indian Premier League",
@@ -174,7 +150,7 @@
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-11T02:42:20.161054",
+            "last_seen": "2026-05-11T02:57:21.353285",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
