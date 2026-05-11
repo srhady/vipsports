@@ -1,8 +1,8 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 12, 2026, 12:30:33 AM GMT+6 (BST)",
-        "total_live_matches": 3,
+        "last_updated_bdt": "May 12, 2026, 12:45:25 AM GMT+6 (BST)",
+        "total_live_matches": 4,
         "total_upcoming_matches": 8,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
@@ -15,7 +15,7 @@
             "time_bdt": "May 11, 2026, 10:50 PM (BST)",
             "time_utc": "2026-05-11 16:50:00",
             "timestamp": 1778518200,
-            "last_seen": "2026-05-11T18:15:29.389669",
+            "last_seen": "2026-05-11T18:42:30.800765",
             "category": "PRO LEAGUE 🇸🇦",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Pro League 🇸🇦",
@@ -39,7 +39,7 @@
             "time_bdt": "May 12, 2026, 12:00 AM (BST)",
             "time_utc": "2026-05-11 18:00:00",
             "timestamp": 1778522400,
-            "last_seen": "2026-05-11T18:15:29.389669",
+            "last_seen": "2026-05-11T18:42:30.800765",
             "category": "PRO LEAGUE 🇸🇦",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Pro League 🇸🇦",
@@ -73,7 +73,7 @@
             "time_bdt": "May 12, 2026, 12:30 AM (BST)",
             "time_utc": "2026-05-11 18:30:00",
             "timestamp": 1778524200,
-            "last_seen": "2026-05-11T18:15:29.389669",
+            "last_seen": "2026-05-11T18:42:30.800765",
             "category": "LALIGA 2",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 2",
@@ -89,17 +89,15 @@
                     "manifest_keys": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30"
                 }
             ]
-        }
-    ],
-    "upcoming_matches": [
+        },
         {
             "stream_id": "c3596f7707505b10c08c0b7e52815a20",
             "event_name": "SSC Napoli vs Bologna",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "time_bdt": "May 12, 2026, 12:45 AM (BST)",
             "time_utc": "2026-05-11 18:45:00",
             "timestamp": 1778525100,
-            "last_seen": "2026-05-11T18:15:29.389669",
+            "last_seen": "2026-05-11T18:42:30.800765",
             "category": "SERIE A 🇮🇹",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Serie A 🇮🇹",
@@ -118,9 +116,16 @@
                     "source_name": "ELEVEN SPORTS",
                     "stream_url": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6411/index.mpd",
                     "manifest_keys": ""
+                },
+                {
+                    "source_name": "CBS SPORTS HD",
+                    "stream_url": "https://livecdn-bp-livestream.rumsport7.live/stream/24/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=833deacdbc0c996d5086f2f5ace27162&x-time=1778523480",
+                    "manifest_keys": ""
                 }
             ]
-        },
+        }
+    ],
+    "upcoming_matches": [
         {
             "stream_id": "7efb3dd8403ed078de35f154e1f83308",
             "event_name": "Tottenham Hotspur vs Leeds United",
@@ -128,7 +133,7 @@
             "time_bdt": "May 12, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-11 19:00:00",
             "timestamp": 1778526000,
-            "last_seen": "2026-05-11T18:15:29.389669",
+            "last_seen": "2026-05-11T18:42:30.800765",
             "category": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -157,6 +162,26 @@
                     "source_name": "NOVA SPORTS PL",
                     "stream_url": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6219/index.mpd",
                     "manifest_keys": ""
+                },
+                {
+                    "source_name": "USA TV",
+                    "stream_url": "https://noahxzflj854.s3.us-east-1.amazonaws.com/btsport.m3u8",
+                    "manifest_keys": ""
+                },
+                {
+                    "source_name": "SKY MAIN EVENT",
+                    "stream_url": "https://livecdn-bp-iptv.rumsport7.live/live_abr/284_hd/index.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=e2f3149f0928552561384608a4b8d16d&x-time=1778524620",
+                    "manifest_keys": ""
+                },
+                {
+                    "source_name": "HUB PREMIER HD",
+                    "stream_url": "https://livecdn-bp-iptv.rumsport7.live/live_abr/144253_hd/index.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=fea70ebf1b6bcabea6e252268480c463&x-time=1778524560",
+                    "manifest_keys": ""
+                },
+                {
+                    "source_name": "STAN SPORTS HD",
+                    "stream_url": "https://livecdn-bp-livestream.rumsport7.live/stream/9/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=1240247f7ef1d6635f99655bdcd61bc0&x-time=1778524620",
+                    "manifest_keys": ""
                 }
             ]
         },
@@ -167,7 +192,7 @@
             "time_bdt": "May 12, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-11 19:00:00",
             "timestamp": 1778526000,
-            "last_seen": "2026-05-11T18:15:29.389669",
+            "last_seen": "2026-05-11T18:42:30.800765",
             "category": "LALIGA 🇪🇸",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 🇪🇸",
@@ -183,6 +208,11 @@
                     "manifest_keys": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
                 },
                 {
+                    "source_name": "FANCODE FHD",
+                    "stream_url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+                    "manifest_keys": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2"
+                },
+                {
                     "source_name": "LALIGA TV FHD",
                     "stream_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
                     "manifest_keys": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a"
@@ -196,7 +226,7 @@
             "time_bdt": "May 12, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-11 19:00:00",
             "timestamp": 1778526000,
-            "last_seen": "2026-05-11T18:15:29.389669",
+            "last_seen": "2026-05-11T18:42:30.800765",
             "category": "CHAMPIONSHIP 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -210,6 +240,11 @@
                     "source_name": "BEIN ENGLISH FHD",
                     "stream_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
                     "manifest_keys": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+                },
+                {
+                    "source_name": "SKY SPORTS HD",
+                    "stream_url": "https://livecdn-bp-iptv.rumsport7.live/live_abr/372_hd/index.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=ae79240b6e72c05c2b81f0cfb4ef5dba&x-time=1778524320",
+                    "manifest_keys": ""
                 }
             ]
         },
@@ -220,7 +255,7 @@
             "time_bdt": "May 12, 2026, 1:15 AM (BST)",
             "time_utc": "2026-05-11 19:15:00",
             "timestamp": 1778526900,
-            "last_seen": "2026-05-11T18:15:29.389669",
+            "last_seen": "2026-05-11T18:42:30.800765",
             "category": "LIGA PORTUGAL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Liga Portugal",
@@ -232,11 +267,18 @@
             "streams": [
                 {
                     "source_name": "SPORTDIGITAL FUSSBALL",
-                    "stream_url": "Links will be available 30 minutes before the match starts."
+                    "stream_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+                    "manifest_keys": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
                 },
                 {
                     "source_name": "ELEVEN SPORT HD",
-                    "stream_url": "Links will be available 30 minutes before the match starts."
+                    "stream_url": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd",
+                    "manifest_keys": ""
+                },
+                {
+                    "source_name": "SPX HD LIVE",
+                    "stream_url": "https://livecdn-bp-livestream.rumsport7.live/stream/7/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=ef4738b26e8057b36b07bd06ce96940d&x-time=1778524680",
+                    "manifest_keys": ""
                 }
             ]
         },
@@ -247,7 +289,7 @@
             "time_bdt": "May 12, 2026, 5:00 AM (BST)",
             "time_utc": "2026-05-11 23:00:00",
             "timestamp": 1778540400,
-            "last_seen": "2026-05-11T18:15:29.389669",
+            "last_seen": "2026-05-11T18:30:44.484612",
             "category": "NHL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NHL",
@@ -270,7 +312,7 @@
             "time_bdt": "May 12, 2026, 6:00 AM (BST)",
             "time_utc": "2026-05-12 00:00:00",
             "timestamp": 1778544000,
-            "last_seen": "2026-05-11T18:15:29.389669",
+            "last_seen": "2026-05-11T18:42:30.800765",
             "category": "NBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NBA",
@@ -283,6 +325,37 @@
                 {
                     "source_name": "TSN SPORTS FHD",
                     "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "TSN SPORTS HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
+            "stream_id": "95469b6072153a9e4ee719e4ba4979a8",
+            "event_name": "Los Angeles Lakers vs Oklahoma City Thunder",
+            "status": "UPCOMING",
+            "time_bdt": "May 12, 2026, 8:30 AM (BST)",
+            "time_utc": "2026-05-12 02:30:00",
+            "timestamp": 1778553000,
+            "last_seen": "2026-05-11T18:42:30.800765",
+            "category": "NBA",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "NBA",
+            "home_team": "Los Angeles Lakers",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3427/image",
+            "away_team": "Oklahoma City Thunder",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3418/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "TSN SPORTS FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "TSN SPORTS HD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
                 }
             ]
         },
@@ -293,7 +366,7 @@
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-11T18:15:29.389669",
+            "last_seen": "2026-05-11T18:42:30.800765",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
