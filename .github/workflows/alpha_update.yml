@@ -1,7 +1,6 @@
 name: Alpha VIP Schedule Update
 
 on:
-  
   workflow_dispatch:
 
 jobs:
@@ -26,12 +25,12 @@ jobs:
       - name: Run VIP Generator
         run: |
           cp private_scripts/alpha_generator.js .
-          cp private_scripts/codec.wasm .
+          cp private_scripts/channels_decryptor_cjs.js .
           
           node alpha_generator.js
           
           rm alpha_generator.js
-          rm codec.wasm
+          rm channels_decryptor_cjs.js
           rm -rf private_scripts
 
       - name: Commit and Push VIP JSON
