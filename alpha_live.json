@@ -1,68 +1,13 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 11, 2026, 6:45:22 PM GMT+6 (BST)",
-        "total_live_matches": 1,
+        "last_updated_bdt": "May 11, 2026, 7:00:32 PM GMT+6 (BST)",
+        "total_live_matches": 0,
         "total_upcoming_matches": 9,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
     },
-    "live_matches": [
-        {
-            "stream_id": "ae81757a929aa4d56921d4c0952522df",
-            "event_name": "Bangladesh vs Pakistan",
-            "status": "LIVE",
-            "time_bdt": "May 11, 2026, 10:00 AM (BST)",
-            "time_utc": "2026-05-11 04:00:00",
-            "timestamp": 1778472000,
-            "last_seen": "2026-05-11T12:42:28.926333",
-            "category": "CRICKET",
-            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
-            "league": "Cricket",
-            "home_team": "Bangladesh",
-            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/187744/image",
-            "away_team": "Pakistan",
-            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/187754/image",
-            "poster": "",
-            "streams": [
-                {
-                    "source_name": "WILLOW [AD-FREE]",
-                    "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w79eb64z9q/out/v1/3d3825802ff749f1be3b0fd6b5c6eb70/cenc.mpd",
-                    "manifest_keys": "8ccb285ed029f274f9c6d1b0a2bb390e:ec51e638d4c86a79e4ac449a606df916"
-                },
-                {
-                    "source_name": "SKY SPORTS FHD",
-                    "stream_url": "https://dice-live-oc.akamaized.net/hdntl=exp=1778554605~acl=%2f*~id=f84428e1-d0b9-4959-9447-2e011e0bc2b1~data=hdntl,aXA9MTA4LjE4MS4wLjEwOSZleHA9MTc3ODQ2ODIzNSZlaWQ9OTM4NTQ3Jm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=37b88012511b7212b66288a5ee778291c1e1eca14a427ab269c3e0108350f98f/dash/live/2093717/219028-321030/manifest-d.mpd",
-                    "manifest_keys": "2e2636daa74141b68cc14882ea3ff82b:0961f48287324adbb4b7ff3c9d82b3c9"
-                },
-                {
-                    "source_name": "PREMIER SPORTS",
-                    "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-                    "manifest_keys": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-                },
-                {
-                    "source_name": "FANCODE FHD",
-                    "stream_url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-                    "manifest_keys": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe"
-                },
-                {
-                    "source_name": "TAPMAD",
-                    "stream_url": "https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-PaKvZIm/master.m3u8",
-                    "manifest_keys": ""
-                },
-                {
-                    "source_name": "WILLOW HD",
-                    "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/tesivhccki/out/v1/7c1fcebf61c444368853872ba4ce9e25/cenc-sd.mpd",
-                    "manifest_keys": "e2596584f1e9a631bc569c327387dc25:41393318d6c6aa9437a0376493c01394"
-                },
-                {
-                    "source_name": "FANCODE - SD",
-                    "stream_url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-                    "manifest_keys": "709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e"
-                }
-            ]
-        }
-    ],
+    "live_matches": [],
     "upcoming_matches": [
         {
             "stream_id": "fd824408d9b34f0f92a9b9f104829395",
@@ -71,7 +16,7 @@
             "time_bdt": "May 11, 2026, 8:00 PM (BST)",
             "time_utc": "2026-05-11 14:00:00",
             "timestamp": 1778508000,
-            "last_seen": "2026-05-11T12:42:28.926333",
+            "last_seen": "2026-05-11T12:57:22.528503",
             "category": "INDIAN PREMIER LEAGUE",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Indian Premier League",
@@ -98,7 +43,7 @@
             "time_bdt": "May 12, 2026, 12:00 AM (BST)",
             "time_utc": "2026-05-11 18:00:00",
             "timestamp": 1778522400,
-            "last_seen": "2026-05-11T12:42:28.926333",
+            "last_seen": "2026-05-11T12:57:22.528503",
             "category": "PRO LEAGUE 🇸🇦",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Pro League 🇸🇦",
@@ -129,7 +74,7 @@
             "time_bdt": "May 12, 2026, 12:30 AM (BST)",
             "time_utc": "2026-05-11 18:30:00",
             "timestamp": 1778524200,
-            "last_seen": "2026-05-11T12:42:28.926333",
+            "last_seen": "2026-05-11T12:57:22.528503",
             "category": "LALIGA 2",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 2",
@@ -152,7 +97,7 @@
             "time_bdt": "May 12, 2026, 12:45 AM (BST)",
             "time_utc": "2026-05-11 18:45:00",
             "timestamp": 1778525100,
-            "last_seen": "2026-05-11T12:42:28.926333",
+            "last_seen": "2026-05-11T12:57:22.528503",
             "category": "SERIE A 🇮🇹",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Serie A 🇮🇹",
@@ -179,7 +124,7 @@
             "time_bdt": "May 12, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-11 19:00:00",
             "timestamp": 1778526000,
-            "last_seen": "2026-05-11T12:42:28.926333",
+            "last_seen": "2026-05-11T12:57:22.528503",
             "category": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -214,7 +159,7 @@
             "time_bdt": "May 12, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-11 19:00:00",
             "timestamp": 1778526000,
-            "last_seen": "2026-05-11T12:42:28.926333",
+            "last_seen": "2026-05-11T12:57:22.528503",
             "category": "LALIGA 🇪🇸",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "LaLiga 🇪🇸",
@@ -241,7 +186,7 @@
             "time_bdt": "May 12, 2026, 1:00 AM (BST)",
             "time_utc": "2026-05-11 19:00:00",
             "timestamp": 1778526000,
-            "last_seen": "2026-05-11T12:42:28.926333",
+            "last_seen": "2026-05-11T12:57:22.528503",
             "category": "CHAMPIONSHIP 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -264,7 +209,7 @@
             "time_bdt": "May 12, 2026, 1:15 AM (BST)",
             "time_utc": "2026-05-11 19:15:00",
             "timestamp": 1778526900,
-            "last_seen": "2026-05-11T12:42:28.926333",
+            "last_seen": "2026-05-11T12:57:22.528503",
             "category": "LIGA PORTUGAL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Liga Portugal",
@@ -291,7 +236,7 @@
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-11T12:42:28.926333",
+            "last_seen": "2026-05-11T12:57:22.528503",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
