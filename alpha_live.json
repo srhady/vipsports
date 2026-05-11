@@ -1,77 +1,13 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 12, 2026, 4:30:23 AM GMT+6 (BST)",
-        "total_live_matches": 2,
+        "last_updated_bdt": "May 12, 2026, 4:45:27 AM GMT+6 (BST)",
+        "total_live_matches": 0,
         "total_upcoming_matches": 4,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
     },
-    "live_matches": [
-        {
-            "stream_id": "e228da25f2d2c9d164bd185853bba09d",
-            "event_name": "Benfica vs Sporting Braga",
-            "status": "LIVE",
-            "time_bdt": "May 12, 2026, 1:15 AM (BST)",
-            "time_utc": "2026-05-11 19:15:00",
-            "timestamp": 1778526900,
-            "last_seen": "2026-05-11T22:27:21.570355",
-            "category": "LIGA PORTUGAL",
-            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
-            "league": "Liga Portugal",
-            "home_team": "Benfica",
-            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3006/image",
-            "away_team": "Sporting Braga",
-            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/2999/image",
-            "poster": "",
-            "streams": [
-                {
-                    "source_name": "SPORTDIGITAL FUSSBALL",
-                    "stream_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-                    "manifest_keys": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-                },
-                {
-                    "source_name": "ELEVEN SPORT HD",
-                    "stream_url": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd",
-                    "manifest_keys": ""
-                },
-                {
-                    "source_name": "SPX HD LIVE",
-                    "stream_url": "https://livecdn-bp-livestream.rumsport7.live/stream/7/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=ef4738b26e8057b36b07bd06ce96940d&x-time=1778524680",
-                    "manifest_keys": ""
-                }
-            ]
-        },
-        {
-            "stream_id": "238e120b2495990efc488358b12372a8",
-            "event_name": "Rio Ave vs Sporting CP",
-            "status": "LIVE",
-            "time_bdt": "May 12, 2026, 1:15 AM (BST)",
-            "time_utc": "2026-05-11 19:15:00",
-            "timestamp": 1778526900,
-            "last_seen": "2026-05-11T22:27:21.570355",
-            "category": "LIGA PORTUGAL",
-            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
-            "league": "Liga Portugal",
-            "home_team": "Rio Ave",
-            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3036/image",
-            "away_team": "Sporting CP",
-            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3001/image",
-            "poster": "",
-            "streams": [
-                {
-                    "source_name": "SPORT TV HD",
-                    "stream_url": "https://livecdn-bp-iptv.rumsport7.live/live_abr/161357_hd/index.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=7059f182e324133a0b92c29c8e762e30&x-time=1778525400",
-                    "manifest_keys": ""
-                },
-                {
-                    "source_name": "LIVE",
-                    "stream_url": "https://play.ltwxsc.com/live/sd-6MuTcdtVYryYDX3q5p.m3u8?txSecret=7ae148611daa68ebdfe2073a95e9c818&txTime=6A025169",
-                    "manifest_keys": ""
-                }
-            ]
-        }
-    ],
+    "live_matches": [],
     "upcoming_matches": [
         {
             "stream_id": "490bc822d15147c2ba8bfaf3ff4d1bbc",
@@ -104,7 +40,7 @@
             "time_bdt": "May 12, 2026, 6:00 AM (BST)",
             "time_utc": "2026-05-12 00:00:00",
             "timestamp": 1778544000,
-            "last_seen": "2026-05-11T22:27:21.570355",
+            "last_seen": "2026-05-11T22:45:25.157306",
             "category": "NBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NBA",
@@ -131,7 +67,7 @@
             "time_bdt": "May 12, 2026, 8:30 AM (BST)",
             "time_utc": "2026-05-12 02:30:00",
             "timestamp": 1778553000,
-            "last_seen": "2026-05-11T22:27:21.570355",
+            "last_seen": "2026-05-11T22:45:25.157306",
             "category": "NBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NBA",
@@ -158,7 +94,7 @@
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-11T22:27:21.570355",
+            "last_seen": "2026-05-11T22:45:25.157306",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
