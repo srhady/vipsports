@@ -1,42 +1,13 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 12, 2026, 9:45:20 AM GMT+6 (BST)",
+        "last_updated_bdt": "May 12, 2026, 10:00:29 AM GMT+6 (BST)",
         "total_live_matches": 2,
-        "total_upcoming_matches": 2,
+        "total_upcoming_matches": 1,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
     },
     "live_matches": [
-        {
-            "stream_id": "68c76d59eaa0fa571ed5a23d263141e4",
-            "event_name": "Cleveland Cavaliers vs Detroit Pistons",
-            "status": "LIVE",
-            "time_bdt": "May 12, 2026, 6:00 AM (BST)",
-            "time_utc": "2026-05-12 00:00:00",
-            "timestamp": 1778544000,
-            "last_seen": "2026-05-12T03:42:25.528151",
-            "category": "NBA",
-            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
-            "league": "NBA",
-            "home_team": "Cleveland Cavaliers",
-            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3432/image",
-            "away_team": "Detroit Pistons",
-            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/3424/image",
-            "poster": "",
-            "streams": [
-                {
-                    "source_name": "TSN SPORTS FHD",
-                    "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-                    "manifest_keys": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689"
-                },
-                {
-                    "source_name": "TSN SPORTS HD",
-                    "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-                    "manifest_keys": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003"
-                }
-            ]
-        },
         {
             "stream_id": "95469b6072153a9e4ee719e4ba4979a8",
             "event_name": "Los Angeles Lakers vs Oklahoma City Thunder",
@@ -44,7 +15,7 @@
             "time_bdt": "May 12, 2026, 8:30 AM (BST)",
             "time_utc": "2026-05-12 02:30:00",
             "timestamp": 1778553000,
-            "last_seen": "2026-05-12T03:42:25.528151",
+            "last_seen": "2026-05-12T03:57:19.265240",
             "category": "NBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NBA",
@@ -70,17 +41,15 @@
                     "manifest_keys": ""
                 }
             ]
-        }
-    ],
-    "upcoming_matches": [
+        },
         {
             "stream_id": "ae81757a929aa4d56921d4c0952522df",
             "event_name": "Bangladesh vs Pakistan",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "time_bdt": "May 12, 2026, 10:00 AM (BST)",
             "time_utc": "2026-05-12 04:00:00",
             "timestamp": 1778558400,
-            "last_seen": "2026-05-12T03:42:25.528151",
+            "last_seen": "2026-05-12T03:57:19.265240",
             "category": "CRICKET",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Cricket",
@@ -126,7 +95,9 @@
                     "manifest_keys": "709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e"
                 }
             ]
-        },
+        }
+    ],
+    "upcoming_matches": [
         {
             "stream_id": "a28df907fcd5ac8f0f2b47e37749f402",
             "event_name": "Formula 1 - Canada GP",
@@ -134,7 +105,7 @@
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-12T03:42:25.528151",
+            "last_seen": "2026-05-12T03:57:19.265240",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
