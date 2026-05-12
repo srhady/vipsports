@@ -1,9 +1,9 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 12, 2026, 8:15:25 AM GMT+6 (BST)",
-        "total_live_matches": 2,
-        "total_upcoming_matches": 3,
+        "last_updated_bdt": "May 12, 2026, 8:30:22 AM GMT+6 (BST)",
+        "total_live_matches": 3,
+        "total_upcoming_matches": 2,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
     },
@@ -39,7 +39,7 @@
             "time_bdt": "May 12, 2026, 6:00 AM (BST)",
             "time_utc": "2026-05-12 00:00:00",
             "timestamp": 1778544000,
-            "last_seen": "2026-05-12T02:12:20.769020",
+            "last_seen": "2026-05-12T02:27:25.489382",
             "category": "NBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NBA",
@@ -60,17 +60,15 @@
                     "manifest_keys": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003"
                 }
             ]
-        }
-    ],
-    "upcoming_matches": [
+        },
         {
             "stream_id": "95469b6072153a9e4ee719e4ba4979a8",
             "event_name": "Los Angeles Lakers vs Oklahoma City Thunder",
-            "status": "UPCOMING",
+            "status": "LIVE",
             "time_bdt": "May 12, 2026, 8:30 AM (BST)",
             "time_utc": "2026-05-12 02:30:00",
             "timestamp": 1778553000,
-            "last_seen": "2026-05-12T02:12:20.769020",
+            "last_seen": "2026-05-12T02:27:25.489382",
             "category": "NBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NBA",
@@ -96,7 +94,9 @@
                     "manifest_keys": ""
                 }
             ]
-        },
+        }
+    ],
+    "upcoming_matches": [
         {
             "stream_id": "ae81757a929aa4d56921d4c0952522df",
             "event_name": "Bangladesh vs Pakistan",
@@ -104,7 +104,7 @@
             "time_bdt": "May 12, 2026, 10:00 AM (BST)",
             "time_utc": "2026-05-12 04:00:00",
             "timestamp": 1778558400,
-            "last_seen": "2026-05-12T02:12:20.769020",
+            "last_seen": "2026-05-12T02:27:25.489382",
             "category": "CRICKET",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Cricket",
@@ -151,7 +151,7 @@
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-12T02:12:20.769020",
+            "last_seen": "2026-05-12T02:27:25.489382",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
