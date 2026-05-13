@@ -1,9 +1,9 @@
 {
     "summary": {
         "status": "Success",
-        "last_updated_bdt": "May 14, 2026, 5:30:22 AM GMT+6 (BST)",
+        "last_updated_bdt": "May 14, 2026, 5:45:23 AM GMT+6 (BST)",
         "total_live_matches": 5,
-        "total_upcoming_matches": 9,
+        "total_upcoming_matches": 10,
         "owner": "Hady",
         "telegram_channel": "t.me/livesportsplay"
     },
@@ -15,7 +15,7 @@
             "time_bdt": "May 14, 2026, 4:00 AM (BST)",
             "time_utc": "2026-05-13 22:00:00",
             "timestamp": 1778709600,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "COPA DO BRASIL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Copa do Brasil",
@@ -54,7 +54,7 @@
             "time_bdt": "May 14, 2026, 4:00 AM (BST)",
             "time_utc": "2026-05-13 22:00:00",
             "timestamp": 1778709600,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "COPA DO BRASIL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Copa do Brasil",
@@ -83,7 +83,7 @@
             "time_bdt": "May 14, 2026, 4:30 AM (BST)",
             "time_utc": "2026-05-13 22:30:00",
             "timestamp": 1778711400,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "COPA DO BRASIL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Copa do Brasil",
@@ -112,7 +112,7 @@
             "time_bdt": "May 14, 2026, 5:00 AM (BST)",
             "time_utc": "2026-05-13 23:00:00",
             "timestamp": 1778713200,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "WNBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "WNBA",
@@ -136,7 +136,7 @@
             "time_bdt": "May 14, 2026, 5:30 AM (BST)",
             "time_utc": "2026-05-13 23:30:00",
             "timestamp": 1778715000,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "COPA DO BRASIL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Copa do Brasil",
@@ -167,7 +167,7 @@
             "time_bdt": "May 14, 2026, 6:00 AM (BST)",
             "time_utc": "2026-05-14 00:00:00",
             "timestamp": 1778716800,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "NBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "NBA",
@@ -191,7 +191,7 @@
             "time_bdt": "May 14, 2026, 6:00 AM (BST)",
             "time_utc": "2026-05-14 00:00:00",
             "timestamp": 1778716800,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "WNBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "WNBA",
@@ -215,7 +215,7 @@
             "time_bdt": "May 14, 2026, 6:30 AM (BST)",
             "time_utc": "2026-05-14 00:30:00",
             "timestamp": 1778718600,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "COPA DO BRASIL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Copa do Brasil",
@@ -242,7 +242,7 @@
             "time_bdt": "May 14, 2026, 6:30 AM (BST)",
             "time_utc": "2026-05-14 00:30:00",
             "timestamp": 1778718600,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "COPA DO BRASIL",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Copa do Brasil",
@@ -294,13 +294,56 @@
             ]
         },
         {
+            "stream_id": "9bcce09bc54442351d417517586a900f",
+            "event_name": "Cruz Azul vs CD Guadalajara",
+            "status": "UPCOMING",
+            "time_bdt": "May 14, 2026, 8:00 AM (BST)",
+            "time_utc": "2026-05-14 02:00:00",
+            "timestamp": 1778724000,
+            "last_seen": "2026-05-13T23:42:25.306269",
+            "category": "LIGA MX",
+            "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
+            "league": "Liga MX",
+            "home_team": "Cruz Azul",
+            "home_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/1947/image",
+            "away_team": "CD Guadalajara",
+            "away_team_logo": "https://serveproxy.com/?url=https://img.sofascore.com/api/v1/team/1938/image",
+            "poster": "",
+            "streams": [
+                {
+                    "source_name": "BEIN ENGLISH",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "PREMIER SPORTS",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "LALIGA TV FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "TSN SPORTS FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "FANCODE FHD",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                },
+                {
+                    "source_name": "FAST SERVER",
+                    "stream_url": "Links will be available 30 minutes before the match starts."
+                }
+            ]
+        },
+        {
             "stream_id": "b8c5118302ea1c9bdc58cfd4c4e406ac",
             "event_name": "Sparks vs Indiana Fever",
             "status": "UPCOMING",
             "time_bdt": "May 14, 2026, 8:30 AM (BST)",
             "time_utc": "2026-05-14 02:30:00",
             "timestamp": 1778725800,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "WNBA",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "WNBA",
@@ -323,7 +366,7 @@
             "time_bdt": "May 15, 2026, 2:45 PM (BST)",
             "time_utc": "2026-05-15 08:45:00",
             "timestamp": 1778834700,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "MOTOGP",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "MotoGP",
@@ -358,7 +401,7 @@
             "time_bdt": "May 16, 2026, 10:00 AM (BST)",
             "time_utc": "2026-05-16 04:00:00",
             "timestamp": 1778904000,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "CRICKET",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "Cricket",
@@ -405,7 +448,7 @@
             "time_bdt": "May 22, 2026, 10:30 PM (BST)",
             "time_utc": "2026-05-22 16:30:00",
             "timestamp": 1779467400,
-            "last_seen": "2026-05-13T23:27:35.069731",
+            "last_seen": "2026-05-13T23:42:25.306269",
             "category": "F1",
             "category_logo": "https://www.thesportsdb.com/images/icons/svg/sports/soccer.svg",
             "league": "F1",
