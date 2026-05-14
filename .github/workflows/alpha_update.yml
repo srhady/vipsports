@@ -1,7 +1,7 @@
 name: Alpha VIP Schedule Update
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Only manual execution as you requested
 
 jobs:
   update-vip-data:
@@ -20,23 +20,27 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Run VIP Generator
         run: |
+          # Copying required files from private repo
           cp private_scripts/alpha_generator.js .
-          cp private_scripts/channels_decryptor_cjs.js .
+          cp private_scripts/BFYgoXpB.js .
           
+          # Running the generator
           node alpha_generator.js
           
+          # Cleanup sensitive files after execution
           rm alpha_generator.js
-          rm channels_decryptor_cjs.js
+          rm BFYgoXpB.js
           rm -rf private_scripts
+          rm -f package.json
 
       - name: Commit and Push VIP JSON
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "VIP Bot"
           git add alpha_live.json
-          git commit -m "Auto Update: VIP Alpha Schedule" || echo "No changes to commit"
+          git commit -m "Auto Update: VIP Alpha Schedule [$(date)]" || echo "No changes to commit"
           git push
