@@ -1,7 +1,7 @@
 name: Alpha VIP Schedule Update
 
 on:
-  workflow_dispatch: # Only manual execution as you requested
+  workflow_dispatch:
 
 jobs:
   update-vip-data:
@@ -24,16 +24,11 @@ jobs:
 
       - name: Run VIP Generator
         run: |
-          # Copying required files from private repo
           cp private_scripts/alpha_generator.js .
-          cp private_scripts/BFYgoXpB.js .
-          
-          # Running the generator
           node alpha_generator.js
           
-          # Cleanup sensitive files after execution
+          # Clean up
           rm alpha_generator.js
-          rm BFYgoXpB.js
           rm -rf private_scripts
           rm -f package.json
 
